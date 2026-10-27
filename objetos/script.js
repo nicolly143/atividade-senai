@@ -61,8 +61,120 @@ while (contador <= 10) {
 
 
 //03- exiba os numeros pares de 20 até 0, em ordem decrescente
-let numero2 =20
-for(let contador = 0; numero2 >=20; contador ++ ){
-
-    console.log(`${contador} - ${numero2} = ${contador - numero2}`)
+let numero1 = 20
+while(numero1 > 0){
+    console.log ( `while: ${numero1}`)
+numero1 -= 1
 }
+
+let numero2 = 0
+do{
+    console.log(`do while: ${numero2}`)
+    numero2 -= 1
+
+}while(numero1 > 0); //faça enquanto
+
+
+//04 -
+
+let numeroInteiro= 10
+while(numeroInteiro >=1){
+   console.log ( numeroInteiro)
+   numeroInteiro -=1 
+}
+console.log("Fim da contagem")
+
+
+
+//listas
+
+const frutas = ["maçã", "banana", "uva", "carambola","laranja"]
+console.log(frutas);
+// trocar valor
+frutas[0] = "pera"
+//adiciona o numero    depois coloca o nome que voce quer trocar     
+
+
+//mostra só as frutas que estão numeradas no console
+console.log(frutas [0]);
+console.log(frutas [2]);
+
+//quantos tem
+console.log(frutas.length);
+// adiciona mais um elemento a tabela
+
+frutas.push("morango", "manga");
+console.log(frutas);
+
+
+//tira o ultimo elemento da lista
+frutas.pop();
+console.log(frutas);
+
+
+//deixar em ordem alfabetica
+frutas.sort
+console.log(frutas)
+
+
+
+
+//funções
+
+function somar(number1, number2){
+    console.log(`a soma dos numeros é ${number1 + number2}`);
+
+    //para retonar ao valor da soma e é salvo dentro de uma variavel
+    return number1 + number2
+}
+ const soma = somar(1,1);
+somar(6,7)
+
+function dividir(number1, number2){
+
+    console.log(` ${number1}/ ${number2} = ${number1 / number2} `);
+}
+
+
+
+
+
+//01 — Adicionando elementos
+//Crie uma lista chamada jogos com 3 jogos. Adicione mais 2 jogos ao final da lista e exiba o resultado no console.
+
+const instrumentos = ["sax baritono","sax alto", "flauta"]
+console.log( instrumentos);
+
+
+instrumentos.push("sax soprano","bateria");
+console.log(instrumentos);
+
+//02 — Removendo o último item
+//Crie uma lista chamada materiais com 5 materiais escolares. Remova o último elemento e exiba a lista atualizada. Em seguida, exiba quantos elementos restaram.
+const materiaisEscolares= ["caderno","caneta", "lapis", "lapisera"]
+console.log(materiaisEscolares);
+
+materiaisEscolares.pop()
+console.log(materiaisEscolares);
+console.log(materiaisEscolares.length);
+
+
+//03 — Saudação personalizada
+//Crie uma função chamada saudar que receba o nome de uma pessoa como parâmetro e exiba uma saudação contendo esse nome. Execute a função com dois nomes diferentes.
+
+
+
+
+
+
+
+
+console.log();
+console.log();
+console.log();
+console.log();
+console.log();
+console.log();
+console.log();
+console.log();
+console.log();
